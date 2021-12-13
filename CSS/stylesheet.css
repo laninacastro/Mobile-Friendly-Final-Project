@@ -1,3 +1,20 @@
-.hero-image {
-    margin-top: -450px !important;
+#home {
+    background-image: url("../IMAGES/pexels-andrew-neel-2312369\ \(1\).jpg");
+    height: 30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
