@@ -11,44 +11,50 @@
 
         <body>
 
-          <!--Navbar-->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand fw-bold" href="#"><strong> Strode Solutions</strong></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Plans</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-xxl">
+              <a href="#home" class="navbar-brand ">
+                  <span class="fw-bold text-secondary">
+                      <strong>Strode Solutions</strong> - Let us bring your content to life.
+                  </span>
+              </a>
+              <!--toggle button-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button> 
+              
+              <!--Navbar Links-->
+              <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#team">Our Team</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#plans">Plans</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                      <li class="nav-item  d-md-inline">
+                          <a class="btn btn-secondary" href="#login">Login</a>
+                      </li>
+                  </ul>
               </div>
-            </div>
-          </nav>
-                             
+          </div>
+      </nav>
+                           
    <!--Hero Image-->
-          <div id="home" class="hero-image" >
+          <div id="home" class="hero-image opacity-75" >
             <div class="container-fluid d-flex justify-content-center align-items-center">
                 <div class="row pt-5 mt-3">
                   <div class="col-md-12 mb-3">
                     <div class="about-us-content text-center text-light">
-                        <h1 class="display-3 white-text mb-5 font-weight-bold" >ABOUT US</h1>
-                        <h5 class="text-uppercase white-text mb-5 mt-1 font-weight-bold">Lorem ipsum dolor sit amet consectetur. </h5>
+                        <h1 class="display-3 mb-5 font-weight-bold" >OUR MISSION</h1>
+                        <h5 class="text-uppercase mb-5 mt-1 m-5 font-weight-bold">To create, promote and foster individual and organizational effectiveness by developing and offering an array of innovative and diverse training programs and services.</h5>
                         <button type="button" class="btn btn-primary">Button</button>                    
                       </div>
                   </div>
@@ -56,9 +62,6 @@
             </div>
           </div>
 
-            <section class="text-center">
-              <h4 class="m-3"><strong>Our Mission</strong></h4>
-              <p class="m-2">To create, promote and foster individual and organizational effectiveness by developing and offering an array of innovative and diverse training programs and services.</p>
 
            <!--Meet our Team-->
         <h2 class="text-center fw-bold m-3">MEET OUR TEAM</h2>
@@ -110,6 +113,71 @@
                 </div>
             </div>
         </div>
+
+          <h1 class="display-4 fw-normal text-center">Our Services</h1>
+
+        <div class="accordion" id="accordionExample">
+          <!--1st Accordion-->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      On-Demand Training
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <!--1st accordion content-->
+      <div class="accordion-body">
+        <strong class="text-primary">LOG ON AND LEARN</strong> Self-paced, convenient, high-quality and consistent learning.
+        Learners are eligible for CEU credits after completion of a course. Fully scalable—train individuals, teams or an entire organization.
+      </div>
+    </div>
+  </div>
+  
+            <!--2nd Accordion-->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Training Manuals
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <!--2nd Accordion Content-->
+      <div class="accordion-body">
+        <strong class="text-primary">PRODUCING PROFESSIONAL TRAINING MATERIALS</strong> We create impressive training manuals for our clients who are looking for engaging materials for their employees. Our training manuals provide all the necessary information and tools for success. We work directly with our clients to ensure accuracy and a polished piece of educational material that is functional for years to come.
+      </div>
+    </div>
+  </div>
+
+                  <!--3rd Accordion-->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        E-Learning Solutions
+      </button>
+    </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <!--3rd Accordion Content-->
+        <div class="accordion-body">
+          <strong class="text-primary">THE FUTURE IS E-LEARNING:</strong> Online learning has become an integral part of many organization’s Learning and Development plans. Nothing beats a face to face course from an engaging facilitator, but an online learning experience developed by the Presentation Geeks comes close. With professionally designed online course content immersed with video, narration, interactive activities and quizzes, taking part in self-directed learning has never been so engaging.
+        </div>
+      </div>
+  </div>
+  
+      <!--4th Accordion -->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Individualized Training Services
+      </button>
+    </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <!--4th Accordion Content-->
+         <div class="accordion-body">
+            <strong class="text-primary">TRAINING TAILORED TO FIT YOUR NEEDS</strong> Assessing, designing, and implementing solutions aligned to a company's work and learning environment, we partner with you to help drive measurable results. Regardless of modality, our proven approach, content, and implementation process will help your organization achieve its strategic objectives 
+          </div>
+      </div>
+    </div>
+</div>
 
         <!--Beginning of Pricing Plans-->
 
@@ -269,7 +337,8 @@
 
 <!--Footer-->
 
-      <div id="footer" class="text-center p-3 bg-light">
+      <div id="footer" class="text-center p-3 mt-5
+      bg-light">
         <ul class="navbar-nav d-flex flex-row">
           <li class="nav-item me-3 me-lg-0">
             <a class="nav-link" href="https://www.youtube.com" rel="nofollow"
